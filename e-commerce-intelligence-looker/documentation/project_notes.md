@@ -1,4 +1,4 @@
-# Project Notes î E-Commerce Intelligence
+# Project Notes ‚Äù E-Commerce Intelligence
 
 ## 1. Project Purpose
 
@@ -51,7 +51,7 @@ A session-level derived table was created for event analysis. It identifies sess
 
 ## 5. Dashboard Architecture
 
-### 01 î Executive Overview
+### 01 ‚Äù Executive Overview
 
 Provides a high-level summary of business performance.
 
@@ -67,7 +67,7 @@ Main content:
 - Customer Conversion Funnel
 - Revenue by Category
 
-### 02 î Sales Intelligence
+### 02 ‚Äù Sales Intelligence
 
 Focuses on revenue and order activity.
 
@@ -78,7 +78,7 @@ Main content:
 - Revenue by Product Department
 - Revenue by Product Category
 
-### 03 î Product Intelligence
+### 03 ‚Äù Product Intelligence
 
 Focuses on product economics, pricing, and profitability.
 
@@ -90,7 +90,7 @@ Main content:
 - Product Profitability Detail
 - Retail Price vs Average Sale Price
 
-### 04 î Customer Intelligence
+### 04 ‚Äù Customer Intelligence
 
 Focuses on customer composition, acquisition, geography, and purchasing behavior.
 
@@ -107,7 +107,7 @@ The dashboards were designed around business questions rather than individual vi
 
 The analytical flow is:
 
-**Executive KPIs í Trends í Products / Categories í Acquisition í Customers í Profitability**
+**Executive KPIs ‚Äô Trends ‚Äô Products / Categories ‚Äô Acquisition ‚Äô Customers ‚Äô Profitability**
 
 Each dashboard focuses on a specific business perspective while using consistent metrics from the LookML semantic layer.
 
@@ -145,28 +145,28 @@ For a production implementation, conversion should preferably be calculated usin
 
 ```text
 E-Commerce-Intelligence/
-??? README.md
-??? BUSINESS_INSIGHTS.md
-??? dashboards/
-?   ??? 01_Executive_Overview/
-?   ??? 02_Sales_Intelligence/
-?   ??? 03_Product_Intelligence/
-?   ??? 04_Customer_Intelligence/
-??? lookml/
-?   ??? model/
-?   ??? views/
-?   ??? dashboards/
-??? documentation/
-    ??? project_notes.md```
+ README.md
+ BUSINESS_INSIGHTS.md
+ dashboards/
+ 01_Executive_Overview/
+ 02_Sales_Intelligence/
+ 03_Product_Intelligence/
+ 04_Customer_Intelligence/
+ lookml/
+ model/
+ views/
+ dashboards/
+ documentation/
+ project_notes.md```
 
 Dashboard screenshots should be placed inside their corresponding dashboard folders and named sequentially, for example:
 
-```text
+text
 01_Executive_Overview/
-‚îú‚îÄ‚îÄ 01_KPIs_and_Revenue_Trend.png
-‚îú‚îÄ‚îÄ 02_Top_Products_and_Traffic.png
-‚îî‚îÄ‚îÄ 03_Conversion_and_Category.png
-```
+ 01_KPIs_and_Revenue_Trend.png
+ 02_Top_Products_and_Traffic.png
+03_Conversion_and_Category.png
+
 
 ## 10. Portfolio Skills Demonstrated
 
@@ -193,6 +193,6 @@ The final solution provides a connected e-commerce analytics environment rather 
 
 The complete BI workflow is:
 
-**Data í Modeling í Metrics í Analysis í Dashboards í Business Insights**
+**Data ‚Äô Modeling ‚Äô Metrics ‚Äô Analysis ‚Äô Dashboards ‚Äô Business Insights**
 
 
